@@ -1,0 +1,19 @@
+  body {
+      margin: 0;
+      padding-top: 56px; /* Adjust based on navbar height */
+    }
+
+    .page {
+      display: none;
+      position: absolute;
+      top: 56px; /* Adjust based on navbar height */
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 56px); /* Adjust based on navbar height */
+      overflow-y: auto;
+      background-color: #fff; /* Adjust as needed */
+    }
+
+    .page:target {
+      display: block;
+    }
